@@ -72,7 +72,7 @@ const insertContact = async (data, method, ID) => {
     }
 ]*/
 
-let array_all_contacts
+let array_all_contacts = []
 
 function clearTable(){
     const tbody = document.querySelector('#tbody-c')
